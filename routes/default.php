@@ -18,6 +18,7 @@ $app->get('/login', function () use ($app) {
     $app->render('login.twig');
 });
 
+
 $app->post(
     '/login',
     function () use ($app) {
