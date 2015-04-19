@@ -1,0 +1,16 @@
+/vendor/
+tmp/*
+.DS_STORE
+composer.lock
+
+/propel/*
+!/propel/propel.sample
+!/propel/runtime-conf.sample
+!/propel/schema.sample
+!/propel/generated-classes/.gitkeep
+
+
+
+/tmp/*
+
+.idea/*
